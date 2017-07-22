@@ -9,7 +9,8 @@
 	<link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-	<nav class="navbar navbar-default navbar-inverse">
+<!-- nav -->
+	<nav class="navbar navbar-default navbar-inverse navbar-fixed-top">
 	  <div class="container-fluid">
 	    <!-- Brand and toggle get grouped for better mobile display -->
 	    <div class="navbar-header">
@@ -36,7 +37,54 @@
 	    </div><!-- /.navbar-collapse -->
 	  </div><!-- /.container-fluid -->
 	</nav>
-	<!-- javascript	 -->
+<!-- end nav -->
+<!-- start carousel  -->
+	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+	  <ol class="carousel-indicators">
+	    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+	    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+	    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+	  </ol>
+
+  <!-- Wrapper for slides -->
+	  <div class="carousel-inner" role="listbox">
+			<!-- slide one -->
+	    <div class="item active" id="wood-bg">
+				<div id="carousel-flex">
+		      <img src="img/logo-01.png" alt="restaurante logo" class="img-responsive center-block" id="carousel-logo">
+			</div>
+	    </div>
+			<!-- slide one end -->
+	    <div class="item" id="seating">
+				<div class="carousel-caption carousel-margin-adjust">
+	        <h3>Eat Local</h3>
+	        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque odio esse dolor accusamus deserunt cum corporis dolorum atque repellat minus veniam, sapiente quia ab, odit eos itaque sint incidunt beatae!</p>
+	        <button class="btn btn-lg btn-warning">Learn More</button>
+      </div>
+	    </div>
+			<div class="item" id="farm">
+				<div class="carousel-caption carousel-margin-adjust">
+	        <h3>From Farm to table</h3>
+	        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque odio esse dolor accusamus deserunt cum corporis dolorum atque repellat minus veniam, sapiente quia ab, odit eos itaque sint incidunt beatae!</p>
+	        <button class="btn btn-lg btn-warning">Browse gallery</button>
+	    </div>
+	    ...
+	  </div>
+
+<!-- Controls -->
+	  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+	    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+	    <span class="sr-only">Previous</span>
+	  </a>
+	  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+	    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+	    <span class="sr-only">Next</span>
+	  </a>
+</div>
+<!-- Controls -->
+<!-- end carousel -->
+<!-- javascript	 -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 </body>
