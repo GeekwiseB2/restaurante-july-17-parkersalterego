@@ -30,10 +30,16 @@
   background-position:center;
 }
 
+#carousel-logo {
+  height:250px;
+  width:250px;
+  position: absolute;
+}
 
 #carousel-flex{
   display:flex;
   align-items:center;
+  justify-content:center;
   height:100%;
   width:100%;
 }
