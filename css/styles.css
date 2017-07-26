@@ -123,7 +123,7 @@ button.btn-warning:hover{
 #review p{
   color:#fff;
   font-size:26px;
-  line-height:28px;
+  line-height:36px;
   font-family:'lato',sans;
   font-weight:300;
 }
@@ -139,6 +139,7 @@ button.btn-warning:hover{
 .fresno-bee {
   background-color:rgba(0, 0, 0, .5);
   border-radius:5px;
+  margin: 125px 0px 125px 0px;
 }
 
 .flex{
