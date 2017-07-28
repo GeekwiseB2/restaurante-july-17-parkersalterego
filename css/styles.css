@@ -149,3 +149,47 @@ button.btn-warning:hover{
   height:450px;
 }
 /* review styles end */
+/**/
+#menu {
+  background-image: url(../img/black_linen.png);
+  height:600px;
+}
+
+#menu h1 {
+  font-family: 'lobster',cursive;
+  color: #fff;
+
+}
+
+#menu a {
+  color: #f8512f;
+  text-transform:uppercase;
+}
+#menu a:hover {
+  cursor:pointer;
+  background-color:rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+
+}
+
+.food {
+  background-color: #fff;
+  min-height:405px;
+  max-height:405px;
+  overflow:auto;
+  padding: 8px 12px 8px 12px;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+  color:#f8512f;
+}
+
+.nav-tabs>li.active>a:hover {
+  background-color:rgba(255, 255, 255, 0.2);
+  cursor:pointer;
+}
+
+.nav-tabs.nav-justified>.active>a, .nav-tabs.nav-justified>.active>a:focus, .nav-tabs.nav-justified>.active>a:hover {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+/**/
