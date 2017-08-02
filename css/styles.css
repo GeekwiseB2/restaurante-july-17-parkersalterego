@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300|Lobster|Playfair+Display:900');
+
+body {
+  position:relative;
+}
+
 /* main nav colors */
 .navbar-inverse{
   border-color: transparent;
@@ -172,7 +177,7 @@ iframe {
   height:40%;
 }
 
-.contact {
+#contact {
   background-color:#f8512f;
   color:white;
 }
