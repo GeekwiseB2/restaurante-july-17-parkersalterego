@@ -157,24 +157,27 @@ button.btn-warning:hover{
 
 /* contact styles */
 form {
-  width:40%;
+  width:35%;
   float:left;
   display:relative;
-  background-color:#f8512f;
+  background-color:#ff6633;
   border:1px solid white;
   padding:15px;
+  margin-bottom:20px;
 }
 address {
-
-  float:right;
-  display:relative;
+  position:absolute;
+  display:block;
+  margin-left:50%
 }
 
 iframe {
-  float:right;
-  display:relative;
-  width:40%;
+  position:absolute;
+  display:block;
+  width:35%;
   height:40%;
+  margin-left:50%;
+  margin-top:100px;
 }
 
 #contact {
@@ -182,7 +185,14 @@ iframe {
   color:white;
 }
 
-.contact h1 {
-
+#contact p{
+  margin-bottom:60px;
+}
+.btn-large {
+  color:#000000;
+  border-color:#cccccc;
+  background-color:#fff;
+  width: calc(100%  /3);
+  margin-left: calc(100%  /3);
 }
 /* contact styles end */
