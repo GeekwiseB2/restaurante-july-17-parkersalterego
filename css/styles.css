@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300|Lobster|Playfair+Display:900');
+
+body {
+  position:relative;
+}
+
 /* main nav colors */
 .navbar-inverse{
   border-color: transparent;
@@ -149,3 +154,92 @@ button.btn-warning:hover{
   height:450px;
 }
 /* review styles end */
+/**/
+ #menu {
+   background-image: url(../img/black_linen.png);
+   height:600px;
+ }
+
+ #menu h1 {
+   font-family: 'lobster',cursive;
+   color: #fff;
+
+ }
+
+ #menu a {
+   color: #f8512f;
+   text-transform:uppercase;
+ }
+ #menu a:hover {
+   cursor:pointer;
+   background-color:rgba(255, 255, 255, 0.2);
+   border: 1px solid rgba(255, 255, 255, 0.2);
+
+ }
+
+ .food {
+   background-color: #fff;
+   min-height:405px;
+   max-height:405px;
+   overflow:auto;
+   padding: 8px 12px 8px 12px;
+ }
+
+ .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+   color:#f8512f;
+ }
+
+ .nav-tabs>li.active>a:hover {
+   background-color:rgba(255, 255, 255, 0.2);
+   cursor:pointer;
+ }
+
+ .nav-tabs.nav-justified>.active>a, .nav-tabs.nav-justified>.active>a:focus, .nav-tabs.nav-justified>.active>a:hover {
+   border: 1px solid rgba(255, 255, 255, 0.2);
+ }
+ /**/
+/* contact styles */
+form {
+  width:35%;
+  float:left;
+  display:relative;
+  background-color:#ff6633;
+  border:1px solid white;
+  padding:15px;
+  margin-bottom:20px;
+}
+address {
+  position:absolute;
+  display:block;
+  margin-left:50%
+}
+
+iframe {
+  position:absolute;
+  display:block;
+  width:35%;
+  height:40%;
+  margin-left:50%;
+  margin-top:100px;
+}
+
+#contact {
+  background-color:#f8512f;
+  color:white;
+}
+
+#contact p{
+  margin-bottom:60px;
+}
+
+#contact h1{
+  font-family:;
+}
+.btn-large {
+  color:#000000;
+  border-color:#cccccc;
+  background-color:#fff;
+  width: calc(100%  /3);
+  margin-left: calc(100%  /3);
+}
+/* contact styles end */
